@@ -12,13 +12,13 @@ GEM
     ffi (1.16.3)
     forwardable-extended (2.6.0)
     http_parser.rb (0.8.0)
-    i18n (0.9.5)
+    i18n (1.14.1)
       concurrent-ruby (~> 1.0)
-    jekyll (3.9.0)
+    jekyll (3.9.3)
       addressable (~> 2.4)
       colorator (~> 1.0)
       em-websocket (~> 0.5)
-      i18n (~> 0.7)
+      i18n (>= 0.7, < 2)
       jekyll-sass-converter (~> 1.0)
       jekyll-watch (~> 2.0)
       kramdown (>= 1.17, < 3)
@@ -34,8 +34,11 @@ GEM
       sass (~> 3.4)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
+    json (2.6.3)
     kramdown (2.4.0)
       rexml
+    kramdown-parser-gfm (1.1.0)
+      kramdown (~> 2.0)
     liquid (4.0.4)
     listen (3.8.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
@@ -60,9 +63,13 @@ PLATFORMS
   x86_64-darwin-22
 
 DEPENDENCIES
-  jekyll (= 3.9.0)
+  jekyll
   jekyll-paginate
   jekyll-paginate-content
+  json
+  kramdown
+  kramdown-parser-gfm
+  rouge
 
 BUNDLED WITH
    2.4.10

@@ -30,3 +30,6 @@ exclude: [
   'gulpfile.js',
   'README.md'
 ]
+
+twitter_username:
+github_username:

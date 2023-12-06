@@ -1,5 +1,9 @@
 source "https://rubygems.org"
 
-gem "jekyll", "3.9.0"  # インストールしたいJekyllのバージョンを指定
+gem "kramdown"
+gem "kramdown-parser-gfm"
+gem "rouge"
+gem "jekyll"
 gem "jekyll-paginate"
 gem "jekyll-paginate-content"
+gem "json"
