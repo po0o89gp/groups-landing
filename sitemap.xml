@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://groups-matching.netlify.app/</loc>
+    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
+    <changefreq>never</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://groups-matching.netlify.app/terms</loc>
+    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://groups-matching.netlify.app/privacy</loc>
+    <lastmod>2023-12-11T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 追加のページがあれば同様に追加 -->
+
+</urlset>
